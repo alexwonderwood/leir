@@ -124,6 +124,20 @@ function fruitful_setup() {
 		'primary' => __( 'Primary Menu', 'fruitful' ),
 	) );
 
+        register_nav_menus( array(
+		'sidemenu' => __( 'Side Menu', 'fruitful' ),
+	) );
+         register_nav_menus( array(
+		'footer1' => __( 'Footer Menu 1', 'fruitful' ),
+	) );
+         register_nav_menus( array(
+		'footer2' => __( 'Footer Menu 2', 'fruitful' ),
+	) );
+          register_nav_menus( array(
+		'footer3' => __( 'Footer Menu 3', 'fruitful' ),
+	) );
+
+
 	
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 604, 270, true );

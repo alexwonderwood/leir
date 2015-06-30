@@ -15,6 +15,9 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="container">
 				<div class="sixteen columns">
+                                <div class="footer-1">  <?php wp_nav_menu(array('theme_location' => 'footer1')); ?> </div>
+                                 <div class="footer-2">  <?php wp_nav_menu(array('theme_location' => 'footer2')); ?> </div>
+                                 <div class="footer-3">  <?php wp_nav_menu(array('theme_location' => 'footer3')); ?> </div>
 					<div class="site-info">
 						<?php fruitful_get_footer_text(); ?>
 					</div><!-- .site-info -->

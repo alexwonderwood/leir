@@ -69,6 +69,9 @@
                 <div id="search" class="widget_search">
                   <?php get_search_form(); ?>
                 </div>
+                 <div id="side_menu" class="side_menu">
+                  <?php wp_nav_menu(array('theme_location' => 'sidemenu')); ?>
+                </div>
               </header><!-- #masthead .site-header -->
             </div>
           </div>
